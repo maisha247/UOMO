@@ -1,0 +1,214 @@
+/* all common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* all common css end */
+
+/* header part start  */
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #222222;
+    border-bottom: 1px solid #FFFFFF;
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    left: 8px;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+.nav-link:hover::after{
+    width: 50%;
+    transition: .4s;
+}
+.nav-item i{
+    font-size: 20px;
+    color: #222222;
+}
+.nav-item i:hover{
+    color: #959595;
+    transition: .4s;
+}
+/* header part end */
+
+/* banner part start  */
+#bannerPart{
+    background: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 65px;
+}
+.bannerText p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #C32929;
+    padding-top: 275px;
+    padding-left: 55px;
+    position: relative;
+}
+.bannerText p::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 40px;
+    background: #C32929;
+    left: 1px;
+    bottom: 10px;
+}
+.bannerText h1{
+    font-size: 70px;
+    font-weight: 400;
+    color: #222222;
+    line-height: 80px;
+    width: 783px;
+}
+.dark{
+    font-weight: 700;
+}
+.bannerText a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #222222;
+    position: relative;
+}
+.bannerText a::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    left: 0;
+    width: 0;
+    background: #222222;
+}
+.bannerText a:hover::after{
+    width: 90%;
+    transition: .4s;
+}
+.slider{
+    margin-top: 150px;
+}
+/* banner part end */
+
+/* collection part start  */
+#collectionPart{
+    padding-top: 103px;
+    padding-bottom: 100px;
+}
+.manImg{
+    margin-left: 60px;
+}
+.kidImg{
+    margin-left: 719px;
+    margin-top: -287px;
+}
+.giftImg{
+    margin-left: 745px;
+    margin-top: -287px;
+}
+.ladyImg:hover{
+    transform: scale(1.05);
+    transition: .4s;
+}
+.manImg:hover{
+    transform: scale(1.05);
+    transition: .4s;
+}
+.kidImg:hover{
+    transform: scale(1.05);
+    transition: .4s;
+}
+.giftImg:hover{
+    transform: scale(1.05);
+    transition: .4s;
+}
+/* collection part end */
+
+/* trendy part start  */
+#trendyPart{
+    padding:100px 0;
+}
+.trendyHead{
+    text-align: center;
+    
+}
+.trendyHead h3{
+    font-size: 35px;
+    font-weight: 400;
+    color: #222222;
+    line-height: 51px;
+}
+.trendyOption a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    position: relative;
+    padding-top: 20px;
+}
+.trendyOption a::after{
+    content: "";
+    height: 2px;
+    left: 0;
+    width: 0;
+    top: 45px;
+    position: absolute;
+    background: #222222;
+}
+.trendyOption a:hover::after{
+    width: 70%;
+    transition: .4s;
+}
+/* trendy part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
+/* header part start  */
+/* header part end */
+
