@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
+    outline: 0;
 }
 a{
     text-decoration: none;
@@ -177,10 +178,158 @@ ul,ol{
     width: 70%;
     transition: .4s;
 }
+.head{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #767676;
+}
+.head p{
+    padding-left: 10px;
+}
+.head a{
+    padding-left: 10px;
+    color: #767676;
+}
+.head a:hover{
+    color: red;
+    transition: .4s;
+    transform: scale(1.05);
+}
+.pText h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-left: 10px;
+    color: #222222;
+}
+.trendyItem{
+    padding: 10px;
+}
+.trendyItem:hover{
+    transform: scale(1.05);
+    transition: .4s;
+}
+.abc{
+    position: relative;
+    color: #767676;
+}
+.abc::after{
+    content: "";
+    position: absolute;
+    background: ;
+    height: 2px;
+    width: 45px;
+    background: #767676;
+    left: 10px;
+    top: 10px;
+}
+.trendyBottom{
+    text-align: center;
+}
+.trendyBottom a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #222222;
+    position: relative;
+}
+.trendyBottom a::after{
+    position: absolute;
+    content: "";
+    background: #222222;
+    height: 2px;
+    width: 0;
+    top: 25px;
+    left: 0;
+}
+.trendyBottom a:hover::after{
+    width: 80%;
+    transition: .4s;
+}
 /* trendy part end */
 
-/* header part start  */
-/* header part end */
+/* spring part start  */
+#springPart{
+    padding-top: 214px;
+    padding-bottom: 40px;
+    background: url(../images/image\ 16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.springText p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #C32929;
+    padding-left: 65px;
+    position: relative;
+}
+.springText p::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 45px;
+    background: #C32929;
+    left: 0;
+    top: 8px;
+}
+.springText h1{
+    font-size: 70px;
+    font-weight: 400;
+    color: #222222;
+}
+.springText a{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    position: relative;
+}
+.springText a::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #222222;
+    top: 40px;
+}
+.springText a:hover::after{
+    width: 65%;
+    transition: .4s;
+}
+.countDown{
+    padding-top: 100px;
+    display: flex;
+}
+.numbers h3{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #222222;
+}
+.light{
+    color: #767676;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.colon{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #222222;
+    padding-left: 25px;
+}
+.space{
+    padding-left: 30px;
+}
+/* spring part end */
 
 /* header part start  */
 /* header part end */
