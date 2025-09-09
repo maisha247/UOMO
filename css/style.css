@@ -96,7 +96,7 @@ ul,ol{
 .bannerText a::after{
     position: absolute;
     content: "";
-    height: 2px;
+    height: 1px;
     left: 0;
     width: 0;
     background: #222222;
@@ -116,14 +116,14 @@ ul,ol{
     padding-bottom: 100px;
 }
 .manImg{
-    margin-left: 60px;
+    margin-left: 1px;
 }
 .kidImg{
-    margin-left: 719px;
+    margin-left: 660px;
     margin-top: -287px;
 }
 .giftImg{
-    margin-left: 745px;
+    margin-left: 665px;
     margin-top: -287px;
 }
 .ladyImg:hover{
@@ -219,7 +219,6 @@ ul,ol{
 .abc::after{
     content: "";
     position: absolute;
-    background: ;
     height: 2px;
     width: 45px;
     background: #767676;
